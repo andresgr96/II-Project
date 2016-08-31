@@ -1,0 +1,157 @@
+<!DOCTTYPE html>
+</html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Epicodus</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-fixed-top"></div>
+<hr>
+      <div class ="jumbotron header">
+        <h1 id="header">Welcome to the Epicodus track suggester!</h1>
+        <h2 id="header"> Please answer the following questions:</h2>
+      </div>
+<hr>
+      <form id="first-question">
+        <h3>Would you prefer Front-end or Back-end developing??</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" class="first-answer" value="front" checked>
+            Front-end.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" class="first-answer" value="back">
+            Back-end.
+          </label>
+        </div>
+        <button type="submit" class="btn btn-danger" id="submit4">Next Question</button>
+      </form>
+
+      <form id="second-question">
+        <h3>Honestly, how much coding experience do you think you have?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" class="second-answer" value="lots" checked>
+            I have a really firm coding experience.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" class="second-answer" value="normal">
+            I have normal experience.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" class="second-answer" value="none">
+            I have none.
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-danger" id="submit3">Next Question</button>
+      </form>
+
+      <form id="third-question">
+        <h3>What company you think will fit you best??</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" class="third-answer" value="larger" checked>
+            Big companies Google or Apple.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" class="third-answer" value="small">
+            Small companies like start-ups.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" class="third-answer" value="bruh">
+            It doesn't really matter to me.
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-danger" id="submit1">Next Question</button>
+      </form>
+
+      <form id="fourth-question">
+        <h3>Woul you prefer working on mobile applications or web developiong?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" class="fourth-answer" value="mobile" checked>
+            Mobile.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" class="fourth-answer" value="web">
+            Web developing.
+          </label>
+        </div>
+        <button type="submit" class="btn btn-danger" id="submit2">Next Question</button>
+      </form>
+
+      <form id="fifth-question">
+        <h3>Which city sounds more comfortable to you?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" class="fifth-answer" value="philladelphia" checked>
+            Philladelphia.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" class="fifth-answer" value="portland">
+            Portland.
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-danger" id="submit5">Next Question</button>
+      </form>
+
+      <div>
+        <div class="result" id="CSharpTrack">
+          <h1 class="text-center">C# / .NET</h1>
+          <p class="text-justify">C#(pronounced as see sharp) is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines. It was developed by Microsoft within its .NET initiative and later approved as a standard by Ecma (ECMA-334) and ISO (ISO/IEC 23270:2006). C# is one of the programming languages designed for the Common Language Infrastructure.</p>
+          <button class="btn btn-danger btn-lg center-block reload" type="submit">Retake</button>
+        </div>
+
+        <div class="result" id="JavaTrack">
+          <h1 class="text-center">Java</h1>
+          <p class="text-justify">Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented,and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.</p>
+          <button class="btn btn-danger btn-lg center-block reload" type="submit">Retake</button>
+        </div>
+
+        <div class="result" id="trackPHP">
+          <h1 class="text-center">PHP</h1>
+          <p class="text-justify">PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. Originally created by Rasmus Lerdorf in 1994,the PHP reference implementation is now produced by The PHP Group.PHP originally stood for Personal Home Page,but it now stands for the recursive acronym PHP: Hypertext Preprocessor.</p>
+          <button class="btn btn-danger btn-lg center-block reload" type="submit">Retake</button>
+        </div>
+
+        <div class="result" id="trackRuby">
+          <h1 class="text-center">Ruby</h1>
+          <p class="text-justify">Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.According to its creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, and Lisp. It supports multiple programming paradigms, including functional, object-oriented, and imperative. It also has a dynamic type system and automatic memory management.</p>
+          <button class="btn btn-danger btn-lg center-block reload" type="submit">Retake</button>
+        </div>
+
+        <div class="result" id="trackDesign">
+          <h1 class="text-center">CSS</h1>
+          <p class="text-justify">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.</p>
+          <button class="btn btn-danger btn-lg center-block reload" type="submit">Retake</button>
+        </div>
+      </div>
+      <footer class="navbar-fixed-bottom">
+        <h1 class="bruhh">&copy;Copyright Andres Garcia</h1>
+      </footer>
+    </div>
+
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
